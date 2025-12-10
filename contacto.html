@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YLaccesorios - Contacto</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="contacto.css" />
+
+  <!-- FontAwesome CORRECTO -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top container">
+      <div class="logo">
+        <img src="imagenes/Proyecto de página webe-commerce para el emprendimiento de la marca YL Accesoriosfrde.png" alt="YL Logo">
+      </div>
+
+      <div class="header-right">
+        <div class="icons">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENÚ -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="talleres.html">Talleres</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="nosotras.html">Nosotras</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="contact-hero">
+    <h1>Estamos aquí para ayudarte. Escríbenos y nos pondremos en contacto contigo.</h1>
+  </header>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <section class="contact-container">
+    <h2>Información de Contacto</h2>
+
+    <div class="contact-info">
+      <div>
+        <h3>WhatsApp</h3>
+        <p>+51 917 052 126</p>
+      </div>
+
+      <div>
+        <h3>Correo</h3>
+        <p>aaccesoriosyl@gmail.com</p>
+      </div>
+
+      <div>
+        <h3>Instagram</h3>
+        <p>@ylaccesorios</p>
+      </div>
+
+      <div>
+        <h3>Horario de atención</h3>
+        <p>Lunes a Sábado: 9:00 am - 8:00 pm</p>
+      </div>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="contact-form">
+      <h2>Envíanos un mensaje</h2>
+
+      <form id="contactForm">
+        <label>Tu nombre</label>
+        <input type="text" name="name" autocomplete="name" placeholder="Tu nombre" required>
+
+        <label>Tu correo</label>
+        <input type="email" name="email" autocomplete="email" placeholder="Tu correo" required>
+
+        <label>Mensaje</label>
+        <textarea name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="formMessage" style="margin-top:12px; font-weight:600;"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-top container">
+      <div class="footer-logo">
+        <img src="imagenes/blanca.png" alt="YL">
+      </div>
+
+      <div class="social">
+        <a href="https://www.instagram.com/ylaaccesorios?igsh=MXFtaXJqcWlvZ2tpYg==" target="_blank">
+          <i class="fa-brands fa-instagram"></i> @ylaccesorios
+        </a>
+
+        <a href="https://wa.me/51917052126" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> (+51) 917 052 126
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>El mejor look es el que te hace sentir poderosa. ¡Elegí sin miedo!</p>
+    </div>
+  </footer>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Tu JS -->
+  <script src="correo.js"></script>
+
+</body>
+</html>
+
+
